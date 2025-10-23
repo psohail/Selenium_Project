@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Sample.WebDriver_Chrome">
+      <class name="TestScript.TestAll">
         <methods>
-          <include name="testMultipleLoginsInOneBrowser"/>
+          <include name="testLogin" invocation-numbers="1"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.Sample.WebDriver_Chrome -->
+      </class> <!-- TestScript.TestAll -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
