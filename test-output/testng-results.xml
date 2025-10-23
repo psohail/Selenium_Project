@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-22T16:33:27 PDT" name="Default suite" finished-at="2025-10-22T16:34:01 PDT" duration-ms="33141">
+    <groups>
+    </groups>
+    <test started-at="2025-10-22T16:33:27 PDT" name="Default test" finished-at="2025-10-22T16:34:01 PDT" duration-ms="33141">
+      <class name="TestScript.WebDriver_Chrome">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestScript.WebDriver_Chrome@139982de]" started-at="2025-10-22T16:33:27 PDT" name="setUp" finished-at="2025-10-22T16:33:34 PDT" duration-ms="6082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:TestScript.WebDriver_Chrome@139982de]" started-at="2025-10-22T16:33:35 PDT" name="testLogin" data-provider="loginData" finished-at="2025-10-22T16:33:39 PDT" duration-ms="4710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:TestScript.WebDriver_Chrome@139982de]" started-at="2025-10-22T16:33:39 PDT" name="testLogin" data-provider="loginData" finished-at="2025-10-22T16:33:42 PDT" duration-ms="2950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:TestScript.WebDriver_Chrome@139982de]" started-at="2025-10-22T16:33:42 PDT" name="testLogin" data-provider="loginData" finished-at="2025-10-22T16:33:45 PDT" duration-ms="2961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:TestScript.WebDriver_Chrome@139982de]" started-at="2025-10-22T16:33:45 PDT" name="testLogin" data-provider="loginData" finished-at="2025-10-22T16:33:53 PDT" duration-ms="8132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:TestScript.WebDriver_Chrome@139982de]" started-at="2025-10-22T16:33:53 PDT" name="testLogin" data-provider="loginData" finished-at="2025-10-22T16:33:57 PDT" duration-ms="3216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:TestScript.WebDriver_Chrome@139982de]" started-at="2025-10-22T16:33:57 PDT" name="testLogin" data-provider="loginData" finished-at="2025-10-22T16:34:00 PDT" duration-ms="3010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestScript.WebDriver_Chrome@139982de]" started-at="2025-10-22T16:34:00 PDT" name="tearDown" finished-at="2025-10-22T16:34:01 PDT" duration-ms="869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestScript.WebDriver_Chrome -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
